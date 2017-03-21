@@ -74,3 +74,9 @@
   -o-animation-name: slideUp;
   animation-name: slideUp;
 }
+.headroom--pinned {
+    display: block;
+}
+.headroom--unpinned {
+    display: none;
+}
