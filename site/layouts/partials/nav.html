@@ -1,32 +1,19 @@
-<!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <a class="mdl-layout-title mdl-button mdl-js-button mdl-js-ripple-effect" href="/">
-        <img src="/img/okabrionzlogo.png" alt="Oka bRionZ Logo" height="25px"/> Oka bRionZ</a>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect  mdl-button--accent" href="/products">Products</a>
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect  mdl-button--accent" href="/values">Values</a>
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect  mdl-button--accent" href="/post">Blog</a>
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect  mdl-button--accent" href="/contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <button href="/" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
-      <i class="fa fa-home" aria-hidden="true"></i> <span> Oka bRionZ</span>
-    </button>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href="/products">Products</a>
-      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href="/values">Values</a>
-      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href="/post">Blog</a>
-      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href="/contact">Contact</a>
-    </nav>
-  </div>
-  <main class="mdl-layout__content">
-    <div class="page-content">
-      <!-- Your content goes here -->
+<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+
+	<!-- Logo -->
+	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
+		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
+	</a>
+
+	<!-- Primary Nav -->
+	<ul class="flex b grey-3">
+		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+
+		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+
+		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
+
+		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
+	</ul>
+
+</nav>
