@@ -1,15 +1,28 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
-  <div class="mw7 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw7">
-      <p>{{ .Description }}</p>
+
+<article>
+  <header class="bg-gold sans-serif">
+    <div class="mw9 center pa4 pt5-ns ph7-l">
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
+      <time class="f6 mb2 dib ttu tracked"><small>
+        {{ .Date.Format "Mon, Jan 2, 2006" }}
+        </small></time>
+      <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+        <span class="bg-black-90 lh-copy white pa1 tracked-tight">
+          {{.Title}}
+        </span>
+      </h3>
+      <h4 class="f3 fw1 georgia i">Read in {{ .ReadingTime }} minutes</h4>
+      <h5 class="f6 ttu tracked black-80">By <a href="/about">Oka bRionZ</a></h5>
     </div>
-  </div>
+  </header>
+  <div class="pa4 ph7-l georgia mw9-l center">
+      <p class="f5 f3-ns lh-copy measure georgia">
+        {{ .Description }}
+      </p>
+    <p class="f5 f4-ns lh-copy measure mb4">
+     {{ .Content }}
+  </p>
+</article>
 {{ partial "footer" . }}
