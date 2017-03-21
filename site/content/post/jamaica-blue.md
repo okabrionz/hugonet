@@ -4,7 +4,7 @@ date: 2017-01-04T15:04:10.000Z
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
-image: /dist/A Deadly Mistake Uncovered on Apartments.png
+image: /img/Always Love to Realize my Imagination on a Website.png
 ---
 
 We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
@@ -20,8 +20,6 @@ The Blue Mountains are considered by many to be a hiker's and camper's paradise.
 This is mainly due to the cold climate which inhibits growth. The small coffee farming communities of Claverty Cottage and Hagley Gap are located near the peak.
 
 ## What you need to know before trying
-
-![null](/img/cart on keyboard.jpg)
 
 Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classification of coffee grown in the Blue Mountains of Jamaica. The best lots of Blue Mountain coffee are noted for their mild flavor and lack of bitterness. Over the past few decades, this coffee has developed a reputation that has made it one of the most expensive and sought-after coffees in the world. Over 80% of all Jamaican Blue Mountain Coffee is exported to Japan. In addition to its use for brewed coffee, the beans are the flavor base of Tia Maria coffee liqueur.
 
