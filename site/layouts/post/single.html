@@ -1,18 +1,19 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
 
-<article>
-  <header class="bg-gold sans-serif">
-    <div class="mw9 center pa4 pt5-ns ph7-l">
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      <time class="f6 mb2 dib ttu tracked"><small>
-        {{ .Date.Format "Mon, Jan 2, 2006" }}
-        </small></time>
+  <article class="helvetica pb5">
+  <header class="vh-100 bg-light-pink dt w-100">
+    <div 
+      style="background:url({{ .Params.image }}) no-repeat center right;background-size: cover;" 
+      class="dtc v-mid cover ph3 ph4-m ph5-l">
       <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
         <span class="bg-black-90 lh-copy white pa1 tracked-tight">
           {{.Title}}
         </span>
       </h3>
+      <time class="f6 mb2 dib ttu tracked"><small>
+        {{ .Date.Format "Mon, Jan 2, 2006" }}
+        </small></time>
       <h4 class="f3 fw1 georgia i">Read in {{ .ReadingTime }} minutes</h4>
       <h5 class="f6 ttu tracked black-80">By <a href="/about">Oka bRionZ</a></h5>
     </div>
