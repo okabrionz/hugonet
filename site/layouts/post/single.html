@@ -18,8 +18,10 @@
       <time class="f6 mb2 dib ttu tracked"><small>
         {{ .Date.Format "Mon, Jan 2, 2006" }}
         </small></time>
-      <h4 class="f3 fw1 georgia i">Read in {{ .ReadingTime }} minutes</h4>
+    <div class="flex justify-between grey-3">
       <h5 class="f6 ttu tracked black-80">By <a href="/about">Oka bRionZ</a></h5>
+      <h4 class="f3 fw1 georgia i">Read in {{ .ReadingTime }} minutes</h4>
+    </div>
       <p class="f5 f3-ns lh-copy measure georgia">
         {{ .Description }}
       </p>
